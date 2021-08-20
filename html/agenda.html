@@ -42,76 +42,95 @@
 		</nav>
 	</header>
 
-<!--Imagen-->
-	<section >
-		<div class="parallax bg1">
-			<div class="filtro">
-			<!-- Contenido -->
-            <div class="container ">
-                <div class="row justify-content-md-center text-light center">
-                    <section class="todoapp">
-					  <header class="header">
-					    <input class="new-todo" placeholder="Agosto 19" autofocus="">
-					  </header>
-					  <section class="main">
-					    <input class="toggle-all" id="toggle-all" type="checkbox">
-					    <label for="toggle-all">Completar</label>
-					    <ul class="todo-list"><li>
-					      <div class="view">
-					        <input class="toggle" type="checkbox">
-					        <label>9:40 a 10:20 - Victoria Amelia Santiago Interconsulta</label>
-					        <button class="destroy"></button>
-					      </div>
-					      <input class="edit" value="Salir a pasear con hercules">
-					      </li><li>
-					      <div class="view">
-					        <input class="toggle" type="checkbox">
-					        <label>11:00 - 11:40 Julia Popoca Moreno Interconsulta</label>
-					        <button class="destroy"></button>
-					      </div>
-					      <input class="edit" value="11am">
-					      </li><li class="completed">
-					      <div class="view">
-					        <input class="toggle" type="checkbox" checked="">
-					        <label>4:00-4:30pm MARIA LUISA INTERCONSULTA</label>
-					        <button class="destroy"></button>
-					      </div>
-					      <input class="edit" value="4pm">
-					      </li><li>
-					      <div class="view">
-					        <input class="toggle" type="checkbox">
-					        <label>Break</label>
-					        <button class="destroy"></button>
-					      </div>
-					      <input class="edit" value="Break">
-					      </li></ul>
-					  </section>
-					  <footer class="footer">
-					    <span class="todo-count"><strong>3</strong> pendientes</span>
-					    <ul class="filters">
-					      <li>
-					        <a class="selected" href="#/">Todo</a>
-					      </li>
-					      <li>
-					        <a href="#/active">Activo</a>
-					      </li>
-					      <li>
-					        <a href="#/completed">Completado</a>
-					      </li>
-					    </ul>
+<!--Agenda-->
+	
+<div class="container">
 
-					    <button class="clear-completed">Terminado</button>
+<h2>Agosto 2021</h2>
+    <p class="lead">
+        Estos son tus pendientes de esta semana.
+    </p>
+    
+    <div class="alert alert-warning">
+        <h4>Recordatorio</h4>
+        <p>No olvides hacer el registro de pacientes nuevos el viernes a las 3:00pm.</p>
+    </div>
 
-					  </footer>
-					</section>
-							
-                </div>
-            </div>
-              
-            </div>
-            
+    <hr />
+
+    <div class="agenda">
+        <div class="table-responsive">
+            <table class="table table-condensed table-bordered">
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Hora</th>
+                        <th>Evento</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Un evento por dia -->
+                    <tr>
+                        <td class="agenda-date" class="active" rowspan="1">
+                            <div class="dayofmonth">20</div>
+                            <div class="dayofweek">Sabado</div>
+                            <div class="shortdate text-muted">Agosto, 2021</div>
+                        </td>
+                        <td class="agenda-time">
+                            5:30 AM
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                <i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i> 
+                                Viviana Rojas
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <!-- Eventos multiples -->
+                    <tr>
+                        <td class="agenda-date" class="active" rowspan="3">
+                            <div class="dayofmonth">22</div>
+                            <div class="dayofweek">Lunes</div>
+                            <div class="shortdate text-muted">Agosto, 2021</div>
+                        </td>
+                        <td class="agenda-time">
+                            8:00 - 9:00 AM 
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                Erik Hernandez - Cirugia Ocular
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="agenda-time">
+                            10:15 AM - 12:00 PM 
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                Junta con ejecutivos
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="agenda-time">
+                            7:00 - 9:00 PM
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                Maria Fernanda Melchor - Consulta
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-	</section>
+    </div>
+</div>
+
+
+
 <footer class="mt-auto">
 	
 	<div class="linefooter"></div>
@@ -128,9 +147,11 @@
 	</div>
 </footer>
 
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
