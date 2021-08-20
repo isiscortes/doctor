@@ -1,13 +1,11 @@
-# doctor
-
-#REGISTROMEDICO-paginaweb
+# Registro medico - Prueba de Front End
 
 ## Este documento contiene 3 paginas de html:
 * [Login](#login)
 * [Agenda](#agenda)
 * [Registro](#registro)
 
-## Informaacion General
+## Informacion General
 Desarrollar una pagina web responsive utilizando HTML, CSS, Javascript y Bootstrap.
 	
 ## Como se conectan las paginas entre si:
