@@ -23,3 +23,10 @@ Si deseas ver la version digital (prototipo) en la web puedes verlo en:
 https://isiscortes.github.io/doctor
 
 
+## Nota adicional:
+
+Actualmente parece que hay dos colaboradores pero en realidad soy yo.
+magnoliabermellon es mi cuenta remota de github en mi escritorio.
+Tengo dos cuentas porque una es para un blog de cocina y la otra para asuntos laborales.
+
+
