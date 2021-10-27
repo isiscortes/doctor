@@ -1,4 +1,4 @@
-# Registro médico - Prueba de Front End
+# Doctor - Prueba de Front End
 
 ## Este documento contiene 3 páginas de html:
 * [Login](#login)
